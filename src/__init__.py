@@ -4,6 +4,7 @@ import time
 
 from pyrogram import Client, filters 
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
+from pyrogram.enums import BotCommand
 
 from config import API_ID, API_HASH, BOT_TOKEN, LOG_ID
 logging.basicConfig(
@@ -36,5 +37,10 @@ async def eval_bot():
     except Exception as e:
         print(e)
         exit()
+    try:
+        await app.set_bot_commands([BotCommand("start", "Starts The Bot")], 
+                                   [BotCommand("eval", "Executes The Codes")])
+    except Exception as e:
+        print(f"Cmds {e}")
 
 asyncio.get_event_loop().run_until_complete(eval_bot())
