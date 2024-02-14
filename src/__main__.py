@@ -3,7 +3,7 @@ import importlib
 
 from pyrogram import idle
 
-from src import app, ub, LOGGER
+from src import app, LOGGER
 from src.modules import ALL_MODULES
 
 
