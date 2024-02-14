@@ -1,0 +1,34 @@
+{
+    "name": "Eval Bot",
+    "description": "Telegram bot to chk codes.",
+    "keywords": [
+        "telegram",
+        "eval",
+        "bot"
+    ],
+    "repository": "https://github.com/Deva09876/evalbot",
+    "website": "",
+    "success_url": "https://t.me/chathubxd",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "SUDOERS": {
+            "description": "User ID of Bot sudos.",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "User ID of Bot owner.",
+            "value": ""
+        },
+    },
+}
