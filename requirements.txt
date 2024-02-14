@@ -1,3 +1,4 @@
 pyrofork
 tgcrypto
 python-dotenv
+aiohttp
