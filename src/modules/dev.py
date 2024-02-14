@@ -11,7 +11,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import SUDOERS
-from bot import app
+from src import app
 
 async def aexec(code, client, message):
     exec(
