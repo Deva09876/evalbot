@@ -5,7 +5,7 @@ import time
 from pyrogram import Client, filters 
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
 
-from config import API_ID, API_HASH, BOT_TOKEN, LOG_ID, SUDOERS
+from config import API_ID, API_HASH, BOT_TOKEN, LOG_ID
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s",
     level=logging.INFO,
