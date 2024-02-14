@@ -38,8 +38,7 @@ async def eval_bot():
         print(e)
         exit()
     try:
-        await app.set_bot_commands([BotCommand("start", "Starts The Bot")], 
-                                   [BotCommand("eval", "Executes The Codes")])
+        await app.set_bot_commands([BotCommand("start", "Starts The Bot")])
     except Exception as e:
         print(f"Cmds {e}")
 
