@@ -4,7 +4,7 @@ import time
 
 from pyrogram import Client, filters 
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
-from pyrogram.enums import BotCommand
+from pyrogram.types import BotCommand
 
 from config import API_ID, API_HASH, BOT_TOKEN, LOG_ID
 logging.basicConfig(
