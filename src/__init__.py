@@ -6,8 +6,6 @@ from pyrogram import Client, filters
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
 
 from config import API_ID, API_HASH, BOT_TOKEN, LOG_ID, SUDOERS
-from bot.utils.database import db
-
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s",
     level=logging.INFO,
@@ -17,7 +15,7 @@ logging.getLogger("pyrogram").setLevel(logging.ERROR)
 LOGGER = logging.getLogger(__name__)
 
 app = Client(
-    "Approver",
+    "Eval",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
