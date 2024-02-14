@@ -22,9 +22,5 @@
             "description": "User ID of Bot sudos.",
             "value": ""
         },
-        "OWNER_ID": {
-            "description": "User ID of Bot owner.",
-            "value": ""
-        },
     },
 }
